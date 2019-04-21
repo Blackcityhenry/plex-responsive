@@ -1,0 +1,120 @@
+@media only screen and (max-width: 992px){
+  html, body{
+    overflow-x: hidden;
+  }
+
+  a[href="#!/settings/web/general"]{
+    display: none;
+  }
+
+  button[data-qa-id="serverMenuButton"]{
+    padding: 0;
+  }
+
+  div[class^="ServerSidebar-sidebarContent"] > div > div[role="navigation"]:first-child{
+    display: none;
+  }
+
+  button[data-qa-id="serverMenuButton"] > div{
+    justify-content: center;
+    align-items: center;
+  }
+
+  button[data-qa-id="serverMenuButton"] > div > span{
+    display: none;
+  }
+
+  div[class^="SidebarContainer-sidebarContainer"]{
+    flex-basis: 60px;
+    overflow: hidden;
+  }
+
+
+
+  div[class^="SidebarLink-title"]{
+    display: none;
+  }
+
+  div[class^="SidebarScroller-scroller"]{
+    padding: 0;
+  }
+
+  div[class^="PageContent-pageContent"] > div{
+    padding: 0 15px 30px;
+  }
+
+  button[class^="NavBar-plexPassButton"]{
+    display: none;
+  }
+
+  div[role="navigation"]{
+    padding: 0 6px;
+    text-align: center;
+  }
+
+  div[role="navigation"] a[role="link"]{
+    padding: 0;
+  }
+
+  div[role="navigation"] div[role="header"]{
+    padding: 0;
+    text-align: left;
+  }
+
+  div[role="navigation"] div[role="header"] div[role="menu"]{
+    display: none;
+  }
+
+  div[class^="SidebarPlaylistsItem-playlistsListItem"], div[class^="SidebarLibraryItem-libraryListItem"]{
+    padding: 0;
+    text-align: center;
+    border-radius: 5px;
+  }
+
+  button[data-qa-id="sidebarLibraryMoreButton"]{
+    display: none;
+  }
+
+  div[class^="SidebarLink-container"]{
+    justify-content: center;
+  }
+
+  div[class^="PageHeader-pageHeader"]{
+    padding: 0 15px;
+    flex-direction: column;
+  }
+
+  div[class^="PageHeaderLeft-pageHeaderLeft"]{
+    font-size: 80%;
+  }
+  div[class^="PageHeaderLeft-pageHeaderLeft"] > span[class^="PageHeaderBreadcrumbButton-link"]{
+    margin-right: 5px;
+  }
+
+  #content > div > div[class^="FullPage-container"] > div[class^="Measure-container"]{
+    display: none;
+  }
+
+
+
+  div[class^="PageContent-innerPageContent"]{
+    padding: 15px;
+  }
+
+  div[class^="PageContent-innerPageContent"] > div > div{
+    position: static !important;
+    padding: 0 !important;
+  }
+
+  div[class^="PrePlayDetailsGroupItem-label"]{
+    flex-basis: 45px;
+  }
+
+
+  div[class^="AudioVideoPlayerView-container"]{
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+
+}
